@@ -7,7 +7,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <header>
+    <div>
+      <a href="#">
+        <img class="imageLogo" src="images/facebook-logo.png" alt="Facebook logo">
+      </a>
+    </div>
+    <nav class="top-bar">
+      <div>
+        <label id="user-email-phone-label" for="user-email-phone">
+          Email or phone
+        </label>
+        <input
+          id="user-email-phone"
+          class="logIn inputtextlogin"
+          type="text"
+        />
+      </div>
+      <div id="password">
+        <label for="user-password">Password</label>
+        <input
+          class="logIn inputtextlogin"
+          type="password"
+          id="user-password"
+        />
+        <a href="#">
+          Forgotten account?
+        </a>
+      </div>
+      <div class="button">
+        <button id="button-login" class="button-login">
+          Log In
+        </button>
+      </div>
+    </nav>
+  </header>
   
 </body>
 </html>
